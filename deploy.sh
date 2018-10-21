@@ -51,7 +51,7 @@ fi
 ###generate file Dockerfile
 cat >Dockerfile <<EOL
 FROM node:10
-WORKDIR /home/app/app
+WORKDIR /home/app
 COPY package*.json ./
 RUN npm install
 COPY . .
