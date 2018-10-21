@@ -7,9 +7,9 @@ exit
 fi
 
 
-###check if node is installed
+###check if nodejs is installed
 if ! [ -x "$(command -v node)" ]; then
-    echo "Error: node is not installed."
+    echo "Error: nodejs is not installed."
 exit    
 fi
 
